@@ -19,7 +19,7 @@ public class InsultGenerator {
 			System.out.println(databaseURL);
 
 			String username = System.getenv("POSTGRESQL_USER");
-			String password = System.getenv("PGPASSWORD");
+			String password = System.getenv("PGPAWSSWORD");
 			System.out.println("usr: "+username+ "   pwd: "+password);
 			Connection connection = DriverManager.getConnection(databaseURL, username, password);
 
